@@ -65,9 +65,52 @@ a: np.ndarray
   **system.x += system.v * dt**
 
 
-### Step 4: Live-Updating Graph
+### Step 4: Live-Updating Graph, Initial Plotting
 
 Uses matplotlib.pyplot.ion() to create an interactive, live-updating graph for a specified period of time. Start time is taken using datetime library, and starts at the time of calling main(). The program then switches to the physics simulation to continue updating based on positional and directional values from the Horizons API.
+
+### Step 5: Translating to Local Perspectives
+Fetching location information from APIs:
+
+Fetch IP-address: (ipify)[https://www.ipify.org/]
+
+Fetch rough geographical location: (ip-api.com)[https://ip-api.com/]
+
+Convert to topocentric view with the earth in the middle, then convert to spherical coordinates. Use hour angle, local sidereal time, ra, and declination (radians) to find altitude and azimuth.
+
+**Equations:**
+
+r = sqrt(x**2 + y**2 + z**2)
+  - distance
+
+dec = arcsin(z/r)
+  - declination
+
+asc = atan2(y, x)
+  - right ascension
+
+LST = 100.46 + 0.985547 * d + longitude + 15 * UT
+  - local sidereal time
+
+H = LST - asc
+  - hour angle
+
+altitude (a) = arcsin(sin(dec)sin(lat) + cos(dec)cos(lat)cos(H))
+  - altitude
+
+azimuth (A) = arccos((sin(dec)-sin(a)sin(lat))/cos(a)cos(lat))
+  - azimuth
+
+### Step 6: Final Plotting
+Using matplotlib.pyplot, plot two sub-plots: cartesian interactable graph (live updating) and polar local sky projection. 
+
+Shot taken on Aug 23, 2026 at 1:15 AM
+
+<img src="SolarSystemObjLocations.png" alt="Shot taken on Aug 23, 2026 at 1:27 AM">
+
+### Next Steps: 
+- Add moons
+- Visual representation on cartesian graph showing visible part of night sky?
 
 
 #### Reference:
