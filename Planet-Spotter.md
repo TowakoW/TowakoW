@@ -69,6 +69,23 @@ a: np.ndarray
 
 Uses matplotlib.pyplot.ion() to create an interactive, live-updating graph for a specified period of time. Start time is taken using datetime library, and starts at the time of calling main(). The program then switches to the physics simulation to continue updating based on positional and directional values from the Horizons API.
 
+#### See below for demo interactive 3D graph:
+
+(Not live-updating due to Github website limitations)
+
+**Initial plot taken from Horizons API:**
+
+<iframe src="/TowakoW/interactive_orbit.html" width="100%" height="600px" style="border:none;"></iframe>
+
+*Shot taken on Aug 17, 2026 at 10:35 PM*
+
+ **8-Month Physics simulation demo:**
+
+<iframe src="/TowakoW/interactive_track.html" width="100%" height="600px" style="border:none;"></iframe>
+ 
+*Shot taken starting on Aug 17, 2026 at 11:25 PM*
+
+
 ### Step 5: Translating to Local Perspectives
 Fetching location information from APIs:
 
@@ -132,22 +149,5 @@ Converting Sun-centric cartesian coordinates (x, y, z) to a topocentric spherica
 ### Next Steps...
 * Convert cartesian coordinates to RA/DEC from the perspective of a specific point on Earth to show relative planet locations for viewers of the night sky
 * Add moons and satellites
-
-
-### See below for demo interactive 3D graph:
-
-(Not live-updating due to Github website limitations)
-
-**Initial plot taken from Horizons API:**
-
-<iframe src="/TowakoW/interactive_orbit.html" width="100%" height="600px" style="border:none;"></iframe>
-
-*Shot taken on Aug 17, 2026 at 10:35 PM*
-
- **8-Month Physics simulation demo:**
-
-<iframe src="/TowakoW/interactive_track.html" width="100%" height="600px" style="border:none;"></iframe>
- 
-*Shot taken starting on Aug 17, 2026 at 11:25 PM*
 
 <a href="/TowakoW/" class="btn btn-sm z-depth-0" role="button">Back to Home</a>
