@@ -15,9 +15,9 @@ Hello World!
 I am a sophomore undergraduate student at UC Berkeley majoring in Astrophysics with a minor in History. I am deeply interested in the intersection between mathematical theory and scientific computing, and how they can be used to analyze the worlds beyond ours. Thanks for visiting my portfolio!
 
 ## Projects
-<a href="/TowakoW/projects/" class="btn btn-sm z-depth-0" role="button">View Projects</a>
+**<a href="/TowakoW/projects/" class="btn btn-sm z-depth-0" role="button">View Projects</a>**
 * **Planet Spotter**
-  * work in progress program that pulls from NASA JPL's Horizons API to graph real-time location data for all planets (+ Pluto) in our solar system.
+  * Program that pulls from NASA JPL's Horizons API to graph and present real time location data for planets (+Pluto), as well as presenting local visualization of planets in altitude and azimuth. 
 
 ## Education
 B.A. Astrophysics | UC Berkeley (Spring 2029)
