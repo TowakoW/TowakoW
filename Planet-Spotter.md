@@ -123,7 +123,7 @@ Using matplotlib.pyplot, plot two sub-plots: cartesian interactable graph (live 
 
 Shot taken on Aug 23, 2026 at 1:15 AM
 
-<img src="SolarSystemObjLocations.png" alt="Shot taken on Aug 23, 2026 at 1:27 AM">
+<img src="./SolarSystemObjLocations.png" alt="Shot taken on Aug 23, 2026 at 1:27 AM">
 
 ### Next Steps: 
 - Add moons
