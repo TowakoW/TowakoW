@@ -16,6 +16,7 @@ I am a sophomore undergraduate student at UC Berkeley majoring in Astrophysics w
 
 ## Research/Internship Experience
 * **Breakthrough Listen Initiatives, Berkeley SETI**
+  * **<a href="https://seti.berkeley.edu/" class="btn btn-sm z-depth-0" role="button">Berkeley SETI</a>**
   * Undergrad research assistant under a PhD student at University of California, Berkeley. Currently looking into furthering ML methods in Breakthrough Listen's search for Extraterrestrial Technosignatures! 
 
 ## Personal Projects
