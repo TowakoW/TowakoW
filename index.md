@@ -15,14 +15,13 @@ Hello World!
 I am a sophomore undergraduate student at UC Berkeley majoring in Astrophysics with a minor in History. I am deeply interested in the intersection between mathematical theory and scientific computing, and how they can be used to analyze the worlds beyond ours. Thanks for visiting my portfolio!
 
 ## Research/Internship Experience
-* **Breakthrough Listen Initiatives, Berkeley SETI**
-  * September 2026 - current
+* **Breakthrough Listen Initiatives, Berkeley SETI | September 2026 - current**
   * **<a href="https://seti.berkeley.edu/" class="btn btn-sm z-depth-0" role="button">Berkeley SETI</a>**
   * Undergrad research assistant under a PhD student at University of California, Berkeley. Currently looking into furthering ML methods in Breakthrough Listen's search for Extraterrestrial Technosignatures! 
 
 ## Personal Projects
 **<a href="/TowakoW/projects/" class="btn btn-sm z-depth-0" role="button">View Projects</a>**
-* **Planet Spotter**
+* **Planet Spotter | Summer 2026**
   * Program that pulls from NASA JPL's Horizons API to graph and present real time location data for planets (+Pluto), as well as presenting local visualization of planets in altitude and azimuth. 
 
 ## Education
