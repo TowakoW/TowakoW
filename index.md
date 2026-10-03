@@ -44,7 +44,8 @@ GPA: 3.82
 
 ## Academic Leadership and Engagement
 * Society of Physics Students (SPS): Active Member
-* Undergraduate Astronomy Society (UAS): Active Member
+* Undergraduate Astronomy Society (UAS): Active Member, Telescope Crew
+* Ballet Company @ Berkeley: Apparel Chair, Instructor, Piece leader
 
 ## Other Information
 **Languages:** English (Fluent), Japanese (Fluent), French (Intermediate)
